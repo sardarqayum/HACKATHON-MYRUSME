@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial,Courier, monospace;
+	background-color: #f4f4f4;
+	padding: 20px;
+}
+
+ .container { 
+	  max-width: 800px;
+	  margin:0 auto;
+	  background:#fff;
+	  padding: 20px;
+	  border-radius: 10px;
+	  box-shadow: 0 0 10px rgba(151, 24, 24, 0.1);
+}
+
+.profile-pic {
+	width: 150px;
+	border-radius: 50%;
+}
+
+h1, h2, p {
+	color: #333;
+}
+
+
+ul  {
+	list-style-type: none;
+	margin: 10px 0;
+}
+
+button {
+	display: block;
+	margin: 10px 0;
+	padding: 10px 20px;
+	background-color: #7a1042;
+	color :#d79191;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color:#22f14f; 
+
+}
+
+
+/*respnosive design*/
+@media (max-width: 600px) {
+	.container {
+		padding: 10px;
+	}
+	h1 {
+		font-size: 25px;
+	}
+	button {
+		width: 100px;
+	}
+}
